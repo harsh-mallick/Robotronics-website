@@ -1,6 +1,5 @@
 import React from "react";
 import "../Css/Home.css";
-import logo11 from '../Images/logo-1-1.png'
 import group9 from '../Images/group-9.png'
 import group10 from '../Images/group-10.png'
 import group11 from '../Images/group-11.jpeg'
