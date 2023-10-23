@@ -3,6 +3,8 @@
 }
 .landing-home{
     width: 100%;
+    position: absolute;
+    top: 21px;
 }
 .div{
     width: 100%;
@@ -23,6 +25,7 @@
     position: absolute;
     top: 147px;
     width: 220px;
+    border-radius: 20px;
 }
 
 .overlap-group {
@@ -258,4 +261,19 @@
     position: absolute;
     text-align: center;
     top: 3px;
+}
+.bar{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(255, 255, 255, 0.7);
+    position: absolute;
+    top: 410px;
+    left: 360px;
+    width: 800px;
+    height: 60px;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    border-radius: 50px;
 }

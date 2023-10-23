@@ -22,8 +22,6 @@ const Home = () => {
     return (
         <div className="landing-home">
             <div className="div">
-                
-
                 {/* Trains Update */}
                 <div className="card-layout-1">
                         <div className="">

@@ -1,0 +1,18 @@
+.main-alert{
+    left: 35px;
+    position: absolute;
+    top: 571px;
+    width: 1461px;
+}
+.alert-update{
+    font-size: xx-large; 
+    font-weight: bolder; 
+    color: white;
+    background-color: peachpuff; 
+    padding-left: 105px;  
+    height: 150px; 
+    padding-top: 50px; 
+    margin-bottom: 20px;
+    border-radius: 30px; 
+    box-shadow: 10px 10px 5px lightgrey
+}
