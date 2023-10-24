@@ -7,20 +7,22 @@ import Food from './Pages/Food';
 import Kuli from './Pages/Kuli';
 import Onboard from './Pages/OnbardFacilities';
 import Alerts from './Pages/Alerts';
+import Cart from './Pages/Carts';
 
 function App() {
   return (
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />}></Route>
-          <Route path="/medicals" element={<Medicals />}></Route>
-          <Route path="/foods" element={<Food />}></Route>
-          <Route path="/kuli" element={<Kuli />}></Route>
-          <Route path="/onboard-facilities" element={<Onboard />}></Route>
-          <Route path="/alerts" element={<Alerts />}></Route>
-        </Routes>
-      </Router>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />}></Route>
+        <Route path="/medicals" element={<Medicals />}></Route>
+        <Route path="/foods" element={<Food />}></Route>
+        <Route path="/kuli" element={<Kuli />}></Route>
+        <Route path="/onboard-facilities" element={<Onboard />}></Route>
+        <Route path="/alerts" element={<Alerts />}></Route>
+        <Route path='/cart' element={<Cart />}></Route>
+      </Routes>
+    </Router>
   );
 }
 

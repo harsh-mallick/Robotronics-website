@@ -1,0 +1,96 @@
+.main-cart {
+    left: 35px;
+    position: absolute;
+    top: 571px;
+    width: 1461px;
+    background-image: url("../Images//rail-1-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flexcon {
+    display: flex;
+    flex-direction: row;
+}
+
+.item {
+    width: 100%;
+}
+
+.total {
+    width: 100%;
+}
+
+.itemcon {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    background-color: rgba(238, 238, 238, 0.7);
+    padding: 15px;
+    height: fit-content;
+    border-radius: 40px;
+}
+
+.itemcon-image {
+    width: 200px;
+    border-radius: 40px;
+    margin-right: 15px;
+}
+
+.itemcon-header {
+    color: rgb(0, 0, 129);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.itemcon-descrip {
+    font-size: medium;
+    font-weight: 700;
+}
+
+.total {
+    background-color: rgba(114, 114, 114, 0.571);
+    height: fit-content;
+    margin-left: 30px;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.hotel-name {
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    margin-left: 60px;
+}
+
+.subtotal {
+    color: white;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-left: 60px;
+}
+
+.total-descrip {
+    display: flex;
+    flex-direction: row;
+    margin-left: 60px;
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.total-descrip-price {
+    margin-left: 400px;
+}
+
+.order-item {
+    background-color: rgb(255, 181, 98);
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    width: 250px;
+    border: rgb(255, 181, 98);
+    border-radius: 25px;
+    height: 45px;
+    margin-left: 240px;
+}
