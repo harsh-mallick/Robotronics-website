@@ -1,14 +1,17 @@
-*{
+* {
     margin: 0;
 }
-.landing-home{
+
+.landing-home {
     width: 100%;
     position: absolute;
     top: 21px;
 }
-.div{
+
+.div {
     width: 100%;
 }
+
 .overlap {
     background-image: url("../Images//rail-1.jpeg");
     background-position: 50% 50%;
@@ -89,7 +92,8 @@
     top: 40px;
     width: 186px;
 }
-.location-text{
+
+.location-text {
     width: 300px;
     height: 40px;
     margin-left: 30px;
@@ -219,6 +223,7 @@
     flex-direction: row;
     justify-content: center;
 }
+
 .tain-sub {
     height: 277px;
     top: 0;
@@ -226,7 +231,8 @@
     border-radius: 20px;
     margin-right: 20px;
 }
-.tain-sub-1{
+
+.tain-sub-1 {
     height: 277px;
     top: 0;
     width: 220px;
@@ -243,10 +249,10 @@
 }
 
 .contactus {
-    background-color: #ffb562;
+    background-color: #000000;
     height: 644px;
     position: absolute;
-    top: 1656px;
+    top: 1256px;
     width: 100%;
 }
 
@@ -262,7 +268,8 @@
     text-align: center;
     top: 3px;
 }
-.bar{
+
+.bar {
     display: flex;
     flex-direction: row;
     background-color: rgba(255, 255, 255, 0.7);

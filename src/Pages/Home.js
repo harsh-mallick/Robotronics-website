@@ -23,28 +23,29 @@ const Home = () => {
             <div className="div">
                 {/* Trains Update */}
                 <div className="card-layout-1">
+                    <div className="">
                         <div className="">
                             <div className="">
-                                <div className="">
-                                    <div className="subhead1">Live Status Updates <input className="location-text" placeholder="Enter your location" type="text" name="" id="" /></div>
-                                    <div className="subhead2">currently running</div>
-                                </div>
-                                <div className="card-items">
-                                    <img className="tain-sub" alt="Group" src={Train1} />
-                                    <img className="tain-sub" alt="Group" src={Train2} />
-                                    <img className="tain-sub" alt="Group" src={Train3} />
-                                    <img className="tain-sub" alt="Group" src={Train4} />
-                                    <img className="tain-sub" alt="Group" src={Train5} />
-                                    <img className="tain-sub-1" alt="Group" src={Train6} />
-                                </div>
+                                <div className="subhead1">Live Status Updates <input className="location-text" placeholder="Enter your location" type="text" name="" id="" /></div>
+                                <div className="subhead2">currently running</div>
                             </div>
-                            <img className="back-to-2" alt="Back to" src={nextpagecopy} />
-                            <img className="next-page-2" alt="Next page" src={nextpage} />
+                            <div className="card-items">
+                                <img className="tain-sub" alt="Group" src={Train1} />
+                                <img className="tain-sub" alt="Group" src={Train2} />
+                                <img className="tain-sub" alt="Group" src={Train3} />
+                                <img className="tain-sub" alt="Group" src={Train4} />
+                                <img className="tain-sub" alt="Group" src={Train5} />
+                                <img className="tain-sub-1" alt="Group" src={Train6} />
+                            </div>
                         </div>
+                        <img className="back-to-2" alt="Back to" src={nextpagecopy} />
+                        <img className="next-page-2" alt="Next page" src={nextpage} />
+                    </div>
+
                 </div>
 
                 {/* Things To do */}
-                <div className="overlap-3">
+                {/* <div className="overlap-3">
                     <div className="group">
                         <div className="overlap-group-2">
                             <div className="subhead1">Things To Do <input type="text" className="location-text" placeholder="Enter your location" name="" id="" /></div>
@@ -61,10 +62,10 @@ const Home = () => {
                     </div>
                     <img className="back-to-2" alt="Back to" src={nextpagecopy} />
                     <img className="next-page-2" alt="Next page" src={nextpage} />
-                </div>
+                </div> */}
 
                 {/* Food Near You */}
-                <div className="overlap-group">
+                {/* <div className="overlap-group">
                     <div className="group">
                         <div className="overlap-2">
                             <div className="subhead1">Food <input className="location-text" placeholder="Enter your location" type="text" name="" id="" /></div>
@@ -81,10 +82,15 @@ const Home = () => {
                     </div>
                     <img className="back-to-2" alt="Back to" src={nextpagecopy} />
                     <img className="next-page-2" alt="Next page" src={nextpage} />
-                </div>
+                </div>*/}
 
                 <div className="contactus">
                     <div className="contactus-sub">CONTACT US</div>
+                </div>
+                <div className="overlap-3">
+                    <p style={{ fontSize: "x-large", fontWeight: "Bold", textAlign: "center", marginTop: "30px" }}>Already Boarded? </p>
+                    <p style={{ fontSize: "x-large", fontWeight: "Bold", textAlign: "center" }}>Check the available Onboard Services</p><br />
+                    <input className="location-text" placeholder="Enter Ticket Number" type="text" name="" id="" style={{ width: "600px", marginLeft: "450px" }} />
                 </div>
             </div>
         </div>
