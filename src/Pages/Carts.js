@@ -1,6 +1,8 @@
 import React from 'react'
 import '../Css/Cart.css'
 import image from "../Images/Food.jpeg"
+import { Link } from "react-router-dom"
+
 const cart = () => {
     return (
         <div className='main-cart'>
@@ -41,7 +43,7 @@ const cart = () => {
                             <p>₹0</p>
                         </div>
                     </p>
-                    <button className="order-item">Order Now</button>
+                    <Link to="/order"><button className="order-item">Order Now</button></Link>
                 </div>
             </div>
         </div>

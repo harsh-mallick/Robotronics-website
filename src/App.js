@@ -8,6 +8,8 @@ import Kuli from './Pages/Kuli';
 import Onboard from './Pages/OnbardFacilities';
 import Alerts from './Pages/Alerts';
 import Cart from './Pages/Carts';
+import Order from './Pages/Order';
+import Profile from './Pages/Profile';
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/onboard-facilities" element={<Onboard />}></Route>
         <Route path="/alerts" element={<Alerts />}></Route>
         <Route path='/cart' element={<Cart />}></Route>
+        <Route path='/order' element={<Order />}></Route>
+        <Route path='/profile' element={<Profile />}></Route>
       </Routes>
     </Router>
   );
